@@ -1,2 +1,3 @@
 # joelmokolo.github.io
-Digital Strategy | Data Analytics | Operational Improvement Portfolio
+Operational & Healthcare Data Analyst
+SQL • Power BI • Excel • Data Quality • Service Improvement
