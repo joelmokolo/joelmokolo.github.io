@@ -1,1 +1,277 @@
-css
+:root {
+  --navy: #0f2742;
+  --blue: #2563eb;
+  --soft-blue: #eef4ff;
+  --grey: #f6f8fb;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --white: #ffffff;
+  --border: #e5e7eb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  background: var(--grey);
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, var(--navy), #173b63);
+  color: var(--white);
+  padding: 70px 20px;
+}
+
+.header-container {
+  max-width: 1050px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.profile-img {
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--white);
+}
+
+h1 {
+  font-size: 42px;
+  margin: 0 0 10px;
+}
+
+.tag {
+  font-size: 19px;
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+.subtitle {
+  max-width: 650px;
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+.links {
+  margin-top: 22px;
+}
+
+.links a,
+.view-btn {
+  display: inline-block;
+  margin: 6px 8px 6px 0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: var(--blue);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.links a:hover,
+.view-btn:hover {
+  opacity: 0.9;
+}
+
+section {
+  max-width: 1050px;
+  margin: 35px auto;
+  padding: 0 20px;
+}
+
+section > h2 {
+  font-size: 28px;
+  margin-bottom: 14px;
+  color: var(--navy);
+}
+
+section > p {
+  max-width: 850px;
+}
+
+.intro {
+  color: var(--muted);
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: var(--white);
+  border: 1px solid var(--border);
+  color: var(--navy);
+  padding: 9px 13px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 28px;
+  margin: 28px 0;
+  box-shadow: 0 10px 30px rgba(15, 39, 66, 0.08);
+}
+
+.badge {
+  display: inline-block;
+  background: var(--soft-blue);
+  color: var(--blue);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 25px;
+  color: var(--navy);
+  margin: 0 0 6px;
+}
+
+.meta {
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.card h4 {
+  color: var(--navy);
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.project-img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  margin: 16px 0 20px;
+  background: #f3f4f6;
+}
+
+ul {
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+.code-block {
+  background: #0b1220;
+  color: #e5e7eb;
+  padding: 18px;
+  border-radius: 12px;
+  overflow-x: auto;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.project-actions {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.testimonial-section {
+  margin-bottom: 50px;
+}
+
+.testimonial-container {
+  background: var(--white);
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(15, 39, 66, 0.06);
+}
+
+.testimonial {
+  margin-bottom: 16px;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.testimonial span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.arrow {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 35px 20px;
+  background: var(--navy);
+  color: var(--white);
+}
+
+footer a {
+  color: var(--white);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 45px 20px;
+    text-align: center;
+  }
+
+  .header-container {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .tag {
+    font-size: 16px;
+  }
+
+  .profile-img {
+    width: 125px;
+    height: 125px;
+  }
+
+  .card {
+    padding: 22px;
+  }
+
+  .card h3 {
+    font-size: 22px;
+  }
+
+  .links a,
+  .view-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .project-actions {
+    display: block;
+  }
+}
