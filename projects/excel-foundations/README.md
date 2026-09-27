@@ -2,7 +2,7 @@
 
 **Type:** Training assignment · Excel skills refresher  
 **Context:** TS Academy data analytics training, with guidance from Ezekiel Aleke.  
-**File:** [Open the workbook](assignment-1.xlsx)
+**File:** [Open the workbook](corrected_Joel_Mokolo_Assignment_1.xlsx)
 
 ## What I practised
 
