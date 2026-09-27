@@ -2,9 +2,9 @@
 
 **Type:** Training assignment · Excel dashboard  
 **Context:** TS Academy data analytics training, with guidance from Ezekiel Aleke.  
-**Files:** [Open the workbook](JoelMokolo_Assignment%202_Project(3).xlsx) · [View the dashboard image](Assignment%202(2).png)
+**Files:** [Open the workbook](JoelMokolo_Assignment%202_Project.xlsx) · [View the dashboard image](Assignment%202.png)
 
-![Excel sales dashboard showing sales-rep and product filters, timelines, four charts and KPI cards](Assignment%202(2).png)
+![Excel sales dashboard showing sales-rep and product filters, timelines, four charts and KPI cards](Assignment%202.png)
 
 ## Question and method
 
